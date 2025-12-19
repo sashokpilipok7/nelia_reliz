@@ -1,43 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marvel</title>
-    <link rel="stylesheet" href="style.css">
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QT4LKFKJFT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QT4LKFKJFT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-  gtag('config', 'G-QT4LKFKJFT');
-</script>
-</head>
-<body>
+      gtag('config', 'G-QT4LKFKJFT');
+    </script>
+  </head>
+  <body>
     <header>
-    <a href="/index.html" class="h">Marvel</a>
-    <nav class="menu">
-      <a class="menu-elements" href="Venom.html">Venom</a>
-      <a class="menu-elements" href="Spider-man.html">Spider-man</a>
-      <a class="menu-elements" href="Captian America.html">Captain America</a>
-      <a class="menu-elements" href="search.html">Пошук</a>
-    </nav>
-  </header>
- <main>
- <h1 style="text-align: center;">
-  <span style="background: #7F55B1; font-size: 35px; color: #f0dbff; padding: 5px 15px; border-radius: 5px; display: inline-block;">
-    Персонаж
-  </span>
-</h1>
-<script src="script.js" defer></script>
-<div class="card_of_heroes">
-<p>Спайдермен (Spider-Man) — один із найпопулярніших супергероїв коміксів компанії Marvel Comics.</p>
- <img src="https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" class="image" width="250">
-</div>
+      <a href="/index.html" class="h">Marvel</a>
+      <nav class="menu">
+        <a class="menu-elements" href="Venom.html">Venom</a>
+        <a class="menu-elements" href="Spider-man.html">Spider-man</a>
+        <a class="menu-elements" href="Captian America.html">Captain America</a>
+        <a class="menu-elements" href="search.html">Пошук</a>
+      </nav>
+    </header>
+    <main>
+      <h1 style="text-align: center">
+        <span
+          style="
+            background: #7f55b1;
+            font-size: 35px;
+            color: #f0dbff;
+            padding: 5px 15px;
+            border-radius: 5px;
+            display: inline-block;
+          "
+        >
+          Персонаж
+        </span>
+      </h1>
 
- </main>
-</footer>
-</body>
+      <div class="cards_row">
+        <div class="card_of_heroes">
+          <p>Спайдермен це один із найпопулярніших супергероїв коміксів компанії Marvel Comics.</p>
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+            class="image"
+            width="250"
+          />
+        </div>
+
+        <div class="card_of_heroes">
+          <p>Веном це персонаж коміксів Marvel, антагоніст і іноді антигерой у всесвіті Людини-павука.</p>
+          <img
+            src="https://wallpapercat.com/w/full/8/1/a/170859-3500x1969-desktop-hd-venom-background-photo.jpg"
+            class="image"
+            width="250"
+          />
+        </div>
+        <div class="card_of_heroes">
+          <p>Капітан Америка це персонаж коміксів Marvel, супергерой і лідер команди Месників.</p>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/uk/thumb/3/3c/%D0%9F%D0%B5%D1%80%D1%88%D0%B8%D0%B9_%D0%BC%D0%B5%D1%81%D0%BD%D0%B8%D0%BA_%D0%A0%D0%BE%D0%B7%D0%BA%D0%BE%D0%BB.jpg/250px-%D0%9F%D0%B5%D1%80%D1%88%D0%B8%D0%B9_%D0%BC%D0%B5%D1%81%D0%BD%D0%B8%D0%BA_%D0%A0%D0%BE%D0%B7%D0%BA%D0%BE%D0%BB.jpg"
+            class="image"
+            width="250"
+          />
+        </div>
+      </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
 </html>
